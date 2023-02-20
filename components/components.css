@@ -90,13 +90,13 @@ a:hover {
 
 .footer {
     background-color: #767272;
-    padding: 1rem;
-    display: flex;
-    flex-direction: row;
-    ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+    
+    
 }
 
 .footer__container {
+    display: flex;
+    flex-direction: row;
     
 }
 
@@ -111,4 +111,31 @@ a:hover {
     color: #141619;
     padding: 1.5rem;
     text-decoration: solid;
+}
+
+.footer__address {
+    font-family: 'Karma';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 130%;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #141619;
+    padding: 1.5rem;
+    text-decoration: solid;
+}
+
+.footer__links {
+    margin-left: auto;
+}
+
+.logos {
+    width: 45px;
+    margin-right: 1rem;
+    margin-top: 1.7rem;
+}
+
+.logos_links {
+    text-decoration: none;
 }
