@@ -1,3 +1,10 @@
 * {
     margin: 0;
+    
+    
+}
+
+body {
+    background: #FFFCF8;
+    background: linear-gradient(90deg, #FFFCF8 15%, #e5d8c8 45%, #9a9286 100%);
 }

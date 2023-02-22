@@ -8,9 +8,10 @@
 }
 
 .navigation__logo {
-    width: 9rem;
-    margin-left: 5rem;
-    margin-top: 1rem;
+    width: 270px;
+    height: 70px;
+    margin-left: 0.5rem;
+    padding: 0.5rem;
 }
 
 .navigation__menu {
