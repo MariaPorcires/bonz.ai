@@ -7,8 +7,8 @@
     
 }
 
-.navigation__logo {
-    width: 9rem;
+.navigation__logo--small {
+    width: 5rem;
     margin-left: 5rem;
     margin-top: 1rem;
 }
@@ -37,92 +37,168 @@
     background-color: #E1D1A7;
 }
 
-.hero {
-    
-    height: 500px;
+
+
+.date {
+    width: 840px;
+    background-color: #EEE8D7;
+}
+
+.date__container {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
 }
 
-.hero__background {
-    background-image: url("/08-night22.jpg");
-    background-size:cover;
-    opacity: 0.7;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    
-}
-
-.hero__links {
-    z-index: 999;
- 
-}
-
-.hero__button {
-    background-color: #E1D1A7;
-    font-family: 'Karma';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    border: 0;
-    line-height: 130%;
-    letter-spacing: 0.07em;
-    text-transform: uppercase;
-    color: #000000;
-    padding: 1.5rem;
-    text-decoration: solid;
-    margin: 1.5rem;
-    cursor: pointer;
-}
-
-.hero__button:hover {
-    background-color: #b0a075;
-}
-
-.main {
-    width: 1000px;
-}
-
-.main__heading {
+.date__headline {
     font-family: 'Karma';
     font-style: normal;
     font-weight: 600;
-    font-size: 28px;
+    font-size: 25px;
+    letter-spacing: 0.07em;
+    color: #141619;
+    text-decoration: solid;
+}
+
+.date__options {
+   margin: 1rem;
+   padding: 1rem;
+   
+}
+
+.date__guests {
+    
+    margin: 1rem;
+    padding: 1rem;
+    
+}
+
+.date__input {
+    width: 5.5rem;
+    padding: 0.4rem;
+    margin: 0.5rem;
+}
+
+.date__buttons {
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+.date__button {
+   
+    background-color: #ababab;
+    margin: 1rem;
+    margin-bottom: 1.5rem;
+    width: 7rem;
+    border: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-family: 'Karma';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #141619;
+    text-decoration: solid;
+    cursor: pointer;
+}
+
+.datepicker-input::-webkit-calendar-picker-indicator {
+    opacity: 0;
+    width: 100%;
+    cursor: pointer;
+    position: absolute;
+    
+  }
+
+.datepicker-input {
+    position: relative;
+    padding-right: 3.5rem;
+    padding-left: 3.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border: 1px solid black;
+    margin: 0.5rem;
+  }
+  
+
+.date__text {
+    font-family: 'Karma';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 130%;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #141619;
+    padding: 1.5rem;
+    text-decoration: solid;
+
+}
+
+.label {
+    display: block;
+    font-family: 'Karma';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
     line-height: 130%;
     letter-spacing: 0.07em;
     text-transform: uppercase;
     color: #141619;
     text-decoration: solid;
-    margin: 1rem;
 }
 
-.main__img {
-    width: 47%;
-    margin: 1rem;
+.card {
+    width: 400px;
+    background-color: #f9f8f6;
     
 }
 
-.main__first {
-    display: flex;
-    flex-direction: row;
-    margin: 1rem;
+.card__img {
+    width: 100%;
+    
 }
 
-.main__second {
-    display: flex;
-    flex-direction: row;
-    margin: 1rem;
-}
-
-.main__text {
+.card__text {
     font-family: 'Source Sans Pro';
-    font-size: normal;
-    font-weight: 400;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
     line-height: 130%;
+    letter-spacing: 0.07em;
+    color: #141619;
     padding: 1rem;
+    text-decoration: solid;
+}
+
+.card__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__button {
+    background-color: #ababab;
+    margin: 1rem;
+    width: 7rem;
+    border: 0;
+    padding: 1rem;
+    font-family: 'Karma';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #141619;
+    text-decoration: solid;
+    cursor: pointer;
 }
 
 .footer {
