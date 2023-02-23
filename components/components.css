@@ -4,7 +4,6 @@
 .navigation {
     display: flex;
     flex-direction: row;
-    
 }
 
 .navigation__logo {
@@ -84,7 +83,7 @@
 }
 
 .main {
-    width: 1000px;
+    max-width: 1000px;
     
 }
 
@@ -92,7 +91,7 @@
     font-family: 'Karma';
     font-style: normal;
     font-weight: 600;
-    font-size: 28px;
+    font-size: 45px;
     line-height: 130%;
     letter-spacing: 0.07em;
     text-transform: uppercase;
