@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #FFFCF8;
+    background: linear-gradient(180deg, #FFFCF8 25%, #e5d8c8 75%, #9a9286 100%);
+}
+
+.date {
+    margin: 1rem auto;
+    max-width: 1000px;
+    margin-bottom: 2rem;
+}
+
+.main {
+    margin: 1rem auto;
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 1rem;
+}
+
+.card {
+    grid-column: auto / span 4;
+}
+
