@@ -4,7 +4,6 @@
 .navigation {
     display: flex;
     flex-direction: row;
-    
 }
 
 .navigation__logo--small {
@@ -41,7 +40,6 @@
 .date {
     width: 800px;
     background-color: #EEE8D7;
-    
 }
 
 .date__container {
@@ -69,7 +67,6 @@
 
 .date__guests {
   margin: 1rem;
-
 }
 
 .date__input {
@@ -113,8 +110,7 @@
     width: 100%;
     cursor: pointer;
     position: absolute;
-    
-  }
+}
 
 .datepicker-input {
     position: relative;
@@ -182,7 +178,7 @@
 }
 
 .card__button {
-    background-color: #ababab;
+    background-color: #E1D1A7;
     margin: 1rem;
     width: 7rem;
     border: 0;
@@ -243,15 +239,13 @@
 
 .footer__links {
     margin-left: auto;
-    margin-right: 1rem;
+    margin-top: 1.5rem;
 }
 
-.logos {
-    width: 45px;
+.payment {
+    margin-left: auto;
+    margin-top: 1.4rem;
     margin-right: 1rem;
-    margin-top: 1.7rem;
-}
-
-.logos_links {
-    text-decoration: none;
+    width: 200px;
+    height: 40px;
 }

@@ -37,44 +37,29 @@ body {
     .navigation__link:hover {
         background: none;
     }
-}
-
-@media only screen and (max-width: 700px) {
     .main {
-    grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
-
     .main__first {
-    flex-direction: column;
-    grid-column: 1 / span 1;
+        flex-direction: column;
+        grid-column: 1 / span 1;
     }
-
     .main__img {
-    width: 100%;
-    padding: 1rem;
+        width: 100%;
+        padding: 1rem;
     }
-}
-
-
-
-@media only screen and (max-width: 700px) {
     .main__second {
-    flex-direction: column;
-    grid-column: 1 / span 1;
+        flex-direction: column;
+        grid-column: 1 / span 1;
     }
-}
-
-
-
-@media only screen and (max-width: 700px) {
     .footer__text {
         margin: 0;
     }
     .footer__address {
-    margin: 0;
+        margin: 0;
     }
     .footer__links {
         margin:0;
-        margin-top:1rem;
-    }
+        margin-top: 1rem;
+    }    
 }
